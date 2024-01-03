@@ -620,6 +620,10 @@
   text-decoration: none;
 }
 
+.gallery-nav {
+  font-size: 18px;
+}
+
 @media screen and (min-width: 768px) {
   .fnext {
     position: absolute;
@@ -717,6 +721,7 @@
   }
 
   .colr {
+    margin-top: 100px;
     width: 530px;
   }
 
