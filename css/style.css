@@ -1,0 +1,762 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.galleryf {
+  display: none;
+}
+
+.avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-right: 10px;
+  padding: 0;
+}
+
+.bb {
+  border-bottom: 1px solid #8b8b8b;
+}
+
+.car-name {
+  color: #590004;
+  font-size: 27px;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 200px;
+}
+
+.card-car {
+  width: 380px;
+}
+
+.card-content {
+  padding: 17px;
+}
+
+.card-discount {
+  font-weight: 700;
+  font-size: 21px;
+  color: #8b8b8b;
+  text-align: right;
+  margin: 0;
+}
+
+.card-model {
+  font-weight: 700;
+  font-size: 20px;
+  color: #590004;
+  margin: 0;
+}
+
+.card-name {
+  font-weight: 700;
+  font-size: 30px;
+  margin: 0;
+}
+
+.card-price {
+  font-weight: 700;
+  font-size: 24px;
+  color: #fca311;
+  text-align: right;
+  margin: 0;
+}
+
+.card-year {
+  font-size: 20px;
+  color: #656464;
+  margin: 0;
+}
+
+.cardd {
+  width: 380px;
+  box-shadow: 1px 1px black;
+  margin-bottom: 30px;
+}
+
+.carousel-indicators {
+  position: static;
+  height: 100px;
+  width: 100%;
+  margin: 0;
+}
+
+.carousel-indicators button.thumbnail {
+  width: 100px;
+}
+
+.carousel-indicators img {
+  width: 100px;
+}
+
+.cbenefits {
+  padding-left: 5px;
+}
+
+.checked {
+  color: orange;
+}
+
+.contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 13px;
+  border: 1px solid black;
+  width: 100%;
+  height: 50px;
+}
+
+.contacto:hover {
+  background-color: black;
+  color: white;
+}
+
+.cpbenefits {
+  font-weight: 400;
+  font-size: 14px;
+  color: #8b8b8b;
+}
+
+.csubtitle {
+  font-weight: 400;
+  font-size: 12px;
+  color: #8b8b8b;
+  margin: 0;
+}
+
+.ctitle {
+  font-weight: bold;
+  color: #590004;
+  font-size: 21px;
+  margin: 0;
+}
+
+.cuota {
+  text-decoration: none;
+}
+
+.cuotab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #590004;
+  height: 50px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.cuotab:hover {
+  background-color: black;
+}
+
+.cuotac {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #545d7a;
+  height: 50px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.cuotac:hover {
+  background-color: #434961;
+}
+
+.cuotad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #545d7a;
+  width: 270px;
+  height: 50px;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.cuotad:hover {
+  background-color: #4f4f4f;
+}
+
+.cuotax {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #545d7a;
+  height: 50px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.deliver {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #379634;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+}
+
+.deliverc {
+  margin-top: 20px;
+  margin-left: 2px;
+}
+
+.description {
+  font-size: 17px;
+  padding-top: 40px;
+}
+
+.destacado {
+  background-color: #5900041a;
+  padding: 32px 0 0 0;
+  margin: 32px 0 0 0;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  padding: 0;
+  background-color: #8b8b8b;
+  margin: 30px 0;
+}
+
+.etiqueta {
+  width: 30px;
+}
+
+.etiquetap {
+  margin: 8px;
+}
+
+.ex {
+  font-weight: 400;
+  font-size: 11px;
+  color: #8b8b8b;
+  margin-top: 18px;
+}
+
+.fa-star {
+  font-size: 25px;
+}
+
+.foot {
+  font-size: 24px;
+  color: #8b8b8b;
+  width: 740px;
+  margin-bottom: 120px;
+}
+
+.foot-car {
+  height: 600px;
+  width: 700px;
+  position: absolute;
+  right: 0;
+}
+
+.foot-text {
+  font-weight: 700;
+  font-size: 24px;
+  color: #590004;
+}
+
+.foot-title {
+  font-family: Orbitron;
+  font-weight: 900;
+  font-size: 64px;
+  width: 850px;
+  line-height: 80px;
+}
+
+.footb {
+  background-color: transparent;
+  border: 2px solid black;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 23px 53px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.footb:hover {
+  background-color: black;
+  color: white;
+}
+
+.footc {
+  margin-top: 280px;
+}
+
+.gimg {
+  width: 100%;
+}
+
+.h1d {
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 48px;
+  margin-bottom: 24px;
+}
+
+.h2 {
+  font-size: 30px;
+  color: #590004;
+  font-weight: 700;
+}
+
+.h3 {
+  font-size: 18px;
+  color: #590004;
+  font-weight: 700;
+}
+
+.h3b {
+  font-size: 18px;
+  color: black;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.idisc {
+  font-size: 10px;
+}
+
+.info {
+  background-color: #fca3111a;
+  align-items: center;
+  height: 60px;
+  line-height: 0.5;
+  margin: 20px 0px;
+  font-size: 10px;
+}
+
+.informe {
+  color: #590004;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.informeb {
+  background-color: #d8d8d880;
+  padding: 15px 20px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.informec {
+  line-height: 0.4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0;
+}
+
+.informefull {
+  background-color: #d8d8d880;
+  padding: 15px 20px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.inicial {
+  background-color: #f0f0f0;
+  width: 262px;
+  height: 57px;
+  border: transparent;
+  padding-left: 10px;
+}
+
+.mas {
+  font-weight: 700;
+  font-size: 30px;
+  color: #590004;
+  text-decoration: none;
+}
+
+.mas:hover {
+  color: black;
+}
+
+.mbarato {
+  display: flex;
+  height: 20px;
+  width: 100px;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fca311;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+}
+
+.mes {
+  background-color: transparent;
+  border: 1px solid #d8d8d8;
+  border-radius: 6px;
+  width: 50px;
+  height: 50px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+
+.mobilec {
+  display: none;
+}
+
+.mobilen {
+  display: none;
+}
+
+.mopcion {
+  display: flex;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #379634;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  font-size: 12px;
+  height: 20px;
+}
+
+.nava {
+  margin: 36px 0px;
+}
+
+.navbot {
+  width: 350px;
+  height: 50px;
+  background-color: #f0f0f0;
+  font-size: 17px;
+  font-weight: 600;
+  color: #590004;
+  padding-left: 15px;
+  border: none;
+  margin: 0px 0 30px 0;
+}
+
+.obutton {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  background-color: transparent;
+  border: 1px solid #d8d8d8;
+  text-align: left;
+}
+
+.ocon {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.otopl {
+  margin-right: 20px;
+}
+
+.otopr {
+  margin-top: 5px;
+}
+
+.pmobile {
+  margin-bottom: 80px;
+}
+
+.precio {
+  color: #8b8b8b;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.precioc {
+  line-height: 0.7;
+}
+
+.preciog {
+  color: #590004;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.reserva {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #590004;
+  height: 50px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 13px;
+}
+
+.reserva:hover {
+  background-color: black;
+}
+
+.similar {
+  font-weight: 700;
+  font-size: 40px;
+  margin: 0;
+}
+
+.similarc {
+  margin-top: 90px;
+}
+
+.star {
+  width: 100px;
+  margin-left: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.stats {
+  font-size: 10px;
+}
+
+.tle {
+  text-align: end;
+  padding-right: 15px;
+}
+
+.trade {
+  text-decoration: none;
+}
+
+.tradec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #6d6d6d;
+  height: 50px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 13px;
+}
+
+.tradec:hover {
+  background-color: #4f4f4f;
+}
+
+.tradex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #8c8c8c;
+  height: 50px;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 13px;
+}
+
+.tri {
+  font-weight: 600;
+  padding-right: 50px;
+}
+
+.trust {
+  border: 1px solid #8b8b8b73;
+}
+
+.vdivider {
+  width: 1px;
+  height: 60%;
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+.views {
+  color: #590004;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .fnext {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+  }
+
+  .fprev {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    background-color: transparent;
+    border: none;
+  }
+
+  .galleryf {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .rounded {
+    padding: 0 3px 3px 3px;
+  }
+
+  .img-full {
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 15%;
+  }
+
+  .gallery-content {
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+  }
+
+  .close {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 10px;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .idisc {
+    font-size: 19px;
+  }
+
+  .info {
+    font-size: 14px;
+  }
+
+  .carousel {
+    width: 900px;
+  }
+
+  .carousel-inner {
+    cursor: pointer;
+  }
+
+  .coli {
+    width: min-content;
+  }
+
+  .cole {
+    width: initial;
+  }
+
+  .description {
+    width: 900px;
+  }
+
+  .rowp {
+    justify-content: space-between;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .colr {
+    width: 530px;
+  }
+
+  .mobilec {
+    display: flex;
+  }
+
+  .mobilen {
+    display: block;
+  }
+
+  .obutton {
+    flex-direction: column;
+  }
+
+  .otop {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+
+  .topr {
+    margin: 18px 0 0 18px;
+  }
+
+  .ocon {
+    flex-direction: row;
+  }
+
+  .container-fluid {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .car-name {
+    font-size: 27px;
+    width: 320px;
+  }
+
+  .coli {
+    width: 1000px;
+  }
+}
