@@ -62,3 +62,17 @@ let closeButton = modal.getElementsByClassName('close')[0];
 closeButton.addEventListener('click', function () {
     modal.style.display = 'none';
 });
+
+document.addEventListener('scroll', () => {
+    let button = document.querySelector('.reserva')
+    let scrollPos = window.scrollY
+    let x = window.innerHeight-button.clientHeight
+    console.log(x)
+    console.log(scrollPos)
+  
+    if(scrollPos > x) {
+      button.classList.add('fixed-bottom')
+    } else if(scrollPos < x) {
+      button.classList.remove('fixed-bottom')
+    }
+  })
