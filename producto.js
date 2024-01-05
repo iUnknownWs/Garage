@@ -71,8 +71,8 @@ document.addEventListener('scroll', () => {
     console.log(scrollPos)
   
     if(scrollPos > x) {
-      button.classList.add('fixed-bottom')
+      button.classList.add('fix-bottom')
     } else if(scrollPos < x) {
-      button.classList.remove('fixed-bottom')
+      button.classList.remove('fix-bottom')
     }
   })
