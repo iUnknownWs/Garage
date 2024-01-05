@@ -2,17 +2,6 @@
   font-family: "Montserrat", sans-serif;
 }
 
-.fix-bottom {
-  position: fixed;
-  bottom: 20px;
-  left: 0;
-  z-index: 1000;
-}
-
-.galleryf {
-  display: none;
-}
-
 .avatar {
   width: 90px;
   height: 90px;
@@ -272,6 +261,11 @@
   font-size: 25px;
 }
 
+.fix-bottom {
+  position: fixed;
+  bottom: 0;
+}
+
 .foot {
   font-size: 24px;
   color: #8b8b8b;
@@ -317,6 +311,14 @@
 
 .footc {
   margin-top: 280px;
+}
+
+.gallery-nav {
+  font-size: 18px;
+}
+
+.galleryf {
+  display: none;
 }
 
 .gimg {
@@ -522,7 +524,6 @@
 }
 
 .reserva {
-  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -532,11 +533,16 @@
   font-size: 20px;
   font-weight: 700;
   text-align: center;
-  margin-top: 13px;
 }
 
 .reserva:hover {
   background-color: black;
+}
+
+.reservac {
+  background-color: white;
+  padding: 20px;
+  margin: 0px;
 }
 
 .similar {
@@ -625,10 +631,6 @@
   font-size: 16px;
   font-weight: 500;
   text-decoration: none;
-}
-
-.gallery-nav {
-  font-size: 18px;
 }
 
 @media screen and (min-width: 768px) {

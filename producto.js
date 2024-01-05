@@ -64,7 +64,7 @@ closeButton.addEventListener('click', function () {
 });
 
 document.addEventListener('scroll', () => {
-    let button = document.querySelector('.reserva')
+    let button = document.querySelector('.reservac')
     let scrollPos = window.scrollY
     let x = window.innerHeight-button.clientHeight
     console.log(x)
