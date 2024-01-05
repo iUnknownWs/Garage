@@ -264,6 +264,9 @@
 .fix-bottom {
   position: fixed;
   bottom: 0;
+  background-color: white;
+  padding: 20px;
+  left: 0;
 }
 
 .foot {
@@ -537,12 +540,6 @@
 
 .reserva:hover {
   background-color: black;
-}
-
-.reservac {
-  background-color: white;
-  padding: 20px;
-  margin: 0px;
 }
 
 .similar {
