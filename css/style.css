@@ -538,6 +538,20 @@
   text-align: center;
 }
 
+.reservax {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #590004;
+  height: 50px;
+  width: 100%;
+  margin-top: 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
 .reserva:hover {
   background-color: black;
 }
